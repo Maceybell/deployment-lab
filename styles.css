@@ -1,0 +1,15 @@
+header {
+    background-color: beige;
+    height: 60px;
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.basket {
+    margin: 25px
+}
