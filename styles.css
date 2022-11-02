@@ -13,3 +13,7 @@ body {
 .basket {
     margin: 25px
 }
+
+.opacity {
+    opacity: 0.2
+}
