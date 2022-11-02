@@ -6,11 +6,11 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-const {home} = require("./controllers/pageCtrl")
+const {home, css} = require("./controllers/pageCtrl")
 
 
 app.get("/", home)
-app.get("/", css)
+app.get("/css", css)
 
 
 
